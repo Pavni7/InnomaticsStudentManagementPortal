@@ -1,0 +1,36 @@
+/* Navigation.css */
+
+nav {
+  background-color: #f7faff;
+  padding: 1rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #007bff;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s, border-bottom 0.3s;
+  cursor: pointer;
+}
+
+button:hover {
+  color: #0056b3;
+  border-bottom: 2px solid #007bff;
+}
+
+button:focus {
+  outline: none;
+  color: #003f7f;
+  border-bottom: 2px solid #0056b3;
+}

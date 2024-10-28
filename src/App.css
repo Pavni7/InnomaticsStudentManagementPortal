@@ -1,0 +1,33 @@
+ 
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #d2dce7;
+  margin: 0;
+  padding: 0;
+  background: url("https://img.freepik.com/premium-photo/flat-lay-blank-desk-with-accessories-business-motivation-inspiration-concepts-ideas_254791-2209.jpg?ga=GA1.1.612041720.1730094314&semt=ais_hybrid");
+  background-size: cover;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #231f26;
+}
+
+button {
+  background-color: #121112;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #17151d;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}

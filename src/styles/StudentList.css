@@ -1,0 +1,74 @@
+/* StudentList.css */
+.list-container {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 2rem auto;
+  max-width: 800px;
+  background-image: url('https://img.freepik.com/free-vector/student-moving-clock-hands_74855-2538.jpg?semt=ais_hybrid');
+
+}
+
+.list-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #34495e;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.student-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.student-item:last-child {
+  border-bottom: none;
+}
+
+.student-info {
+  color: #34495e;
+}
+
+.action-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.action-buttons button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 0.75rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.action-buttons button:hover {
+  background-color: #c0392b;
+}
+
+.edit-button {
+  background-color: #202429;
+}
+
+.edit-button:hover {
+  background-color: #1c1d1e;
+}
+.dropdown-style {
+  padding: 10px; /* Adds padding to the dropdown */
+  border: 1px solid #ccc; /* Adds a border */
+  border-radius: 5px; /* Rounds the corners */
+  background-color: #f8f8f8; /* Light background color */
+  cursor: pointer; /* Change cursor to pointer */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.dropdown-style:hover {
+  background-color: #e8e8e8; /* Change background color on hover */
+}
